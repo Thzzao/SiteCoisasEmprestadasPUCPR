@@ -1,0 +1,103 @@
+.destaque{font-weight:bold}
+.button{background-color:#000000; color:white;padding: 10px 32px;text-align: center;font-size: 16px; float: left;margin: 0 15px; border-radius: 15px}
+.button2{width: 100%;background-color: #000000;color: white;padding: 15px 32px;margin: 8px 0;border: none;border-radius: 15px;
+  cursor: pointer;text-align: center;text-decoration: none; display: inline-block;font-size: 16px;}
+#Menu{padding-left: 5em;padding-right: 5em; text-align: center}
+#tabela{text-align: center; display:block;}
+
+
+input[type=text], input[type=date], input[type=email],input[type=tel],input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  
+input[type=submit] {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background-color: #585858;
+}
+  
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container das flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Estilo do menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo da lista dentro do menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*layout responsivo*/
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+

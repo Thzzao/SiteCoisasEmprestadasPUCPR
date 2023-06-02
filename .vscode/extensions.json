@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "thekalinga.bootstrap4-vscode",
+        "wcwhitehead.bootstrap-3-snippets",
+        "zhuangtongfa.material-theme",
+        "esbenp.prettier-vscode",
+        "formulahendry.code-runner",
+        "dbaeumer.vscode-eslint"
+    ]
+}

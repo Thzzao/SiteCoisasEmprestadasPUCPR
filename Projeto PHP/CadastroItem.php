@@ -5,34 +5,34 @@
         <!--CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo.css">
-
-        <body>
-            <!--Formulário de itens --> 
-            <header><h1> Cadastre seus itens </h1></header>
-            <article>
-                <form action = "RecebeItem.php" method = "post">
-
-                    <label for="nomeObjeto">Nome do objeto</label>
-                    <input type = "text" name = "nomeObjeto" />
-
-                    <label for="nomeDono">Nome do Dono</label>
-                    <input type = "text" name = "nomeDono" />
-
-                    <h3><p> Contato do Dono</p></h3> 
-
-                    <label for="endereçoDono">Endereço</label>
-                    <input type = "text" name = "endereçoDono" />
-
-                    <label for="telefoneDono">Telefone</label>
-                    <input type = "tel" name = "telefoneDono" />
-
-                    <label for="emailDono">Email</label>
-                    <input type = "email" name = "emailDono" />  
-
-                    <!--Botão de envio do formulário-->
-                    <p><input class="btn btn-dark" type = "submit" value = "Cadastrar"/> </p>
-                </form>
-            </article> 
-        </body> 
     </head>
+
+    <body>
+        <!--Formulário de itens --> 
+        <header><h1> Cadastre seus itens </h1></header>
+        <article>
+            <form action = "RecebeItem.php" method = "post">
+
+                <label for="nomeObjeto">Nome do objeto</label>
+                <input type = "text" name = "nomeObjeto" />
+
+                <label for="nomeDono">Nome do Dono</label>
+                <input type = "text" name = "nomeDono" />
+
+                <h3><p> Contato do Dono</p></h3> 
+
+                <label for="endereçoDono">Endereço</label>
+                <input type = "text" name = "endereçoDono" />
+
+                <label for="telefoneDono">Telefone</label>
+                <input type = "tel" name = "telefoneDono" />
+
+                <label for="emailDono">Email</label>
+                <input type = "email" name = "emailDono" />  
+
+                <!--Botão de envio do formulário-->
+                <p><input class="btn btn-dark" type = "submit" value = "Cadastrar"/> </p>
+            </form>
+        </article> 
+    </body> 
 </html>
